@@ -4,12 +4,12 @@ namespace Defectively.Compatibility
 {
     public class Version
     {
-        public virtual int Major { get; set; } = 2;
-        public virtual int Minor { get; set; } = 2;
-        public virtual int Patch { get; set; } = 26;
+        public virtual int Major { get; set; } = 0;
+        public virtual int Minor { get; set; } = 0;
+        public virtual int Patch { get; set; } = 1;
         public virtual VersioningProfiler.Suffixes Suffix { get; set; } = VersioningProfiler.Suffixes.none;
-        public virtual string ReleaseDate { get; set; } = "17w05";
-        public virtual string Commit { get; set; } = "b5b2d9d"; // #festival-version-control new
+        public virtual string ReleaseDate { get; set; } = "17w08";
+        public virtual string Commit { get; set; } = "fbc00fd";
         public virtual string SupportedVersion { get; set; }
 
         public string ToShortString() {
