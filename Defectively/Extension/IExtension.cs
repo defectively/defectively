@@ -9,6 +9,7 @@ namespace Defectively.Extension
     {
         string Author { get; }
         bool ClientInstance { get; }
+        Dictionary<string, Command.Command> Commands { get; set; }
         string Description { get; }
         bool Disabled { get; set; }
         IEnumerable<Listener> ServerListeners { get; }

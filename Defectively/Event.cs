@@ -64,7 +64,7 @@ namespace Defectively
     /// <summary>
     /// Contains information about a <see cref="Event.Dynamic"/> event.
     /// </summary>
-    public class EventArguments
+    public class DynamicEvent
     {
         /// <summary>
         /// The internal identifier of the <see cref="Account"/> invoking this event.
@@ -95,33 +95,33 @@ namespace Defectively
         /// <summary>
         /// Empty constructor used for deserialization.
         /// </summary>
-        public EventArguments() { }
+        public DynamicEvent() { }
 
         /// <summary>
-        /// Creates new <see cref="EventArguments"/>.
+        /// Creates a new <see cref="DynamicEvent"/>.
         /// </summary>
         /// <param name="handler">The handler of this event.</param>
-        public EventArguments(string handler) {
+        public DynamicEvent(string handler) {
             EventHandler = handler;
         }
 
         /// <summary>
-        /// Creates new <see cref="EventArguments"/>.
+        /// Creates a new <see cref="DynamicEvent"/>.
         /// </summary>
         /// <param name="handler">The handler of this event.</param>
         /// <param name="invoker">The invoker of this event.</param>
-        public EventArguments(string handler, string invoker) {
+        public DynamicEvent(string handler, string invoker) {
             EventHandler = handler;
             Invoker = invoker;
         }
 
         /// <summary>
-        /// Creates new <see cref="EventArguments"/>.
+        /// Creates new <see cref="DynamicEvent"/>.
         /// </summary>
         /// <param name="handler">The handler of this event.</param>
         /// <param name="invoker">The invoker of this event.</param>
         /// <param name="params">The parameters of this event.</param>
-        public EventArguments(string handler, string invoker, params object[] @params) {
+        public DynamicEvent(string handler, string invoker, params object[] @params) {
             EventHandler = handler;
             Invoker = invoker;
             Parameters = @params;

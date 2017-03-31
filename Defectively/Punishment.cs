@@ -1,7 +1,6 @@
 ﻿#pragma warning disable 1591
 
 using System;
-using System.Linq;
 
 namespace Defectively
 {
@@ -15,13 +14,7 @@ namespace Defectively
         public string Id { get; set; }
 
         public Punishment() {
-            Id = GenerateId(6);
-        }
-
-        private static string GenerateId(int length) {
-            const string Characters = "abcdefghijklmnopqrstuvwxyz0123456789";
-            var Random = new Random();
-            return new string(Enumerable.Repeat(Characters, length).Select(s => s[Random.Next(s.Length)]).ToArray());
+            Id = Helpers.GenerateRandomId(6);
         }
     }
 }
