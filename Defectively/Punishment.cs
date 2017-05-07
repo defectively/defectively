@@ -16,5 +16,9 @@ namespace Defectively
         public Punishment() {
             Id = Helpers.GenerateRandomId(6);
         }
+
+        public bool IsExceeded => EndDate.CompareTo(DateTime.Now) <= 0 && Type != Enumerations.PunishmentType.PermanentBann;
+
+        
     }
 }

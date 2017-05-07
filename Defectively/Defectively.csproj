@@ -52,8 +52,13 @@
     <Compile Include="Command\CommandFactory.cs" />
     <Compile Include="Command\JsonTypes.cs" />
     <Compile Include="Command\Parameter.cs" />
-    <Compile Include="Compatibility\Version.cs" />
-    <Compile Include="Compatibility\VersioningProfiler.cs" />
+    <Compile Include="Compatibility\DevelopmentStage.cs" />
+    <Compile Include="Compatibility\ILSVersionAttribute.cs" />
+    <Compile Include="Compatibility\LSClientVersionAttribute.cs" />
+    <Compile Include="Compatibility\LSCoreVersionAttribute.cs" />
+    <Compile Include="Compatibility\LSServerVersionAttribute.cs" />
+    <Compile Include="Compatibility\VersionAttribute.cs" />
+    <Compile Include="Compatibility\VersionHelper.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="Cryptography.cs" />
     <Compile Include="DiscardableConnection.cs" />

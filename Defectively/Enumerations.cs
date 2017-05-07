@@ -58,7 +58,7 @@ namespace Defectively
         {
             Mute,
             Bann,
-            BannTemporarily
+            PermanentBann
         }
 
         public enum ClientState

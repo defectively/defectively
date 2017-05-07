@@ -1,7 +1,7 @@
 ﻿#pragma warning disable 1591
 
+using System;
 using System.Collections.Generic;
-using Defectively.Compatibility;
 
 namespace Defectively.Extension
 {
@@ -19,7 +19,8 @@ namespace Defectively.Extension
         bool StorageNeeded { get; }
         string StoragePath { get; set; }
         string Path { get; set; }
-        Version Version { get; }
+        Version Version { get; set; }
+        Version SupportedCoreVersion { get; set; }
 
         void OnEnable();
         void OnRun();
