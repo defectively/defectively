@@ -41,7 +41,7 @@ namespace Defectively.Extension
 
         void CreateChannel(string id, string name, bool hidden, IExtension extension);
         void MoveAccountTo(string accountId, string channelId);
-        void RemoveChannel(string id);
+        void RemoveChannel(string id, IExtension extension);
 
         void ShowNotification(Notification notification);
     }

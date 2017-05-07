@@ -83,7 +83,9 @@ namespace Defectively.Compatibility
                 }
             }
 
-            if (int.TryParse(Parts[3], out int _)) {
+            // Travis-CI Compatibility Fix
+            int _;
+            if (int.TryParse(Parts[3], out _)) {
                 throw new ArgumentException($"\"{version}\" does not represent a valid version.");
             }
 

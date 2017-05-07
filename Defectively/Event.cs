@@ -62,6 +62,30 @@ namespace Defectively
     }
 
     /// <summary>
+    /// Contains pre-defined delegates for all <see cref="Event"/>s.
+    /// </summary>
+    public class EventDelegates
+    {
+        public delegate void OnServerStarted(string address);
+        public delegate void OnServerStopped();
+        public delegate void OnChannelCreated(string id);
+        public delegate void OnChannelClosed(string id);
+        public delegate void OnClientBalanceChanged(string id, long balance);
+        public delegate void OnClientChannelChanged(string accountId, string channelId);
+        public delegate void OnClientConnect(string address, string id, string parameters);
+        public delegate void OnClientConnected(string id);
+        public delegate void OnClientDisconnected(string id);
+        public delegate void OnClientMessageReceived(string id, string content);
+        public delegate void OnClientRankChanged(string accountId, string rankId);
+        public delegate void OnConnectionEstablished(string address, string id, string parameters, string password);
+        public delegate void OnConsoleInputReceived(string input);
+        public delegate void OnServerDynamicEvent(DynamicEvent e);
+        public delegate void OnClientDynamicEvent(DynamicEvent e);
+        public delegate void OnPunishmentExceeded(Punishment punishment);
+        public delegate void OnPunishmentRecorded(Punishment punishment);
+    }
+
+    /// <summary>
     /// Contains information about a <see cref="Event.Dynamic"/> event.
     /// </summary>
     public class DynamicEvent

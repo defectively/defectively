@@ -55,6 +55,11 @@ namespace Defectively
         /// </summary>
         public string Predicate { get; set; }
 
+        /// <summary>
+        /// Determines whether this <see cref="Channel"/> will be displayed in the channel list or not.
+        /// </summary>
+        public bool Hidden { get; set; }
+
         public static bool operator ==(Channel first, Channel second) {
             return first?.Id == second?.Id;
         }
