@@ -39,9 +39,12 @@ namespace Defectively.Extension
         void DisposeConnectionById(string accountId);
         void SetAccountState(string accountId, bool online);
 
-        void CreateChannel(string id, string name, bool hidden, IExtension extension);
+        void CreateChannel(string id, string name, bool hidden, Enumerations.ChannelJoinMode restrictions, IExtension extension);
+        void CreateChannel(Channel channel, IExtension extension);
         void MoveAccountTo(string accountId, string channelId);
         void RemoveChannel(string id, IExtension extension);
+        bool IsAccountInChannel(string accountId, string channelId);
+        List<string> GetAllIdsInChannel(string channelId);
 
         void ShowNotification(Notification notification);
     }

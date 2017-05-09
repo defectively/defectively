@@ -75,7 +75,7 @@ namespace Defectively
         public delegate void OnClientConnect(string address, string id, string parameters);
         public delegate void OnClientConnected(string id);
         public delegate void OnClientDisconnected(string id);
-        public delegate void OnClientMessageReceived(string id, string content);
+        public delegate void OnClientMessageReceived(string id, string content, string channelId);
         public delegate void OnClientRankChanged(string accountId, string rankId);
         public delegate void OnConnectionEstablished(string address, string id, string parameters, string password);
         public delegate void OnConsoleInputReceived(string input);

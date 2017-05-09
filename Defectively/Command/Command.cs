@@ -107,5 +107,20 @@ namespace Defectively.Command
             }
             return IgnoreCase ? Regex.IsMatch(content, Pattern, RegexOptions.IgnoreCase) : Regex.IsMatch(content, Pattern);
         }
+
+        public override string ToString() {
+            var Builder = new StringBuilder();
+
+            Builder.Append($"/<{Namespace}:>{Name}");
+            foreach (var Pair in Parameters) {
+                if (Pair.Value.Type == ParameterType.Required) {
+                    Builder.Append($" ({Pair.Key})");
+                } else {
+                    Builder.Append($" [{Pair.Key}]");
+                }
+            }
+
+            return Builder.ToString();
+        }
     }
 }

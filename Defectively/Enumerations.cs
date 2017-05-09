@@ -36,6 +36,7 @@ namespace Defectively
             ShowLuvaNotice,
             HyperConnect,
             HyperCommunicate,
+            SetCommandList,
             None
         }
 
