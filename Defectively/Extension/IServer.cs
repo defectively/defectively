@@ -24,7 +24,9 @@ namespace Defectively.Extension
         void CreatePunishment(Punishment punishment);
         Account GetAccountById(string id);
         Rank GetRankById(string id);
-        Punishment GetPunishmentById(string id);
+        Punishment GetPunishment(string accountId);
+        bool CheckForPunishment(string accountId);
+        void DisposePunishment(string accountId);
         void InvokeInternalEvent(Event e, params object[] args);
         void InvokeEvent(DynamicEvent e);
         void CancelInternalMessageHandling();

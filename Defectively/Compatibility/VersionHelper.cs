@@ -23,7 +23,7 @@ namespace Defectively.Compatibility
         /// <returns></returns>
         public static Version GetVersionFromString(string versionString) {
             var Parts = versionString.Split('.');
-
+            
             if (!StageCharacters.ContainsValue(Parts[3]))
                 throw new ArgumentException($"\"{versionString}\" does not represent a valid version.");
 

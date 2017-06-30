@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Defectively.Severity">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAggAAAAAA=</HashCode>
+      <FileName>Severity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.ServerMetaData">
+    <Position X="11.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAICAAAQAAAAAAAAQQAAAAAAAAABAAgAAACAgA=</HashCode>
+      <FileName>ServerMetaData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Rank">
+    <Position X="4.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Rank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Punishment">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAICAgBAAAAgAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Punishment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.MessagePacket">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAQAAAAAAAAAABAAAAAQAAAAAAAQE=</HashCode>
+      <FileName>MessagePacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Helpers">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.EventDelegates">
+    <Position X="16" Y="13.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Defectively.EventDelegates.OnServerStopped" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnServerDynamicEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientRankChanged">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnPunishmentRecorded">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientDynamicEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnConsoleInputReceived">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientConnect">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnServerStarted">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnChannelCreated">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientMessageReceived">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientChannelChanged">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnChannelClosed">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientBalanceChanged">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientDisconnected">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnClientConnected">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnPunishmentExceeded">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Defectively.EventDelegates.OnConnectionEstablished">
+        <TypeIdentifier>
+          <NewMemberFileName>Event.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.DynamicEvent">
+    <Position X="7.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAIAAAAAAAgAAABAAEAAAIAAAAAAAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Enumerations">
+    <Position X="18.5" Y="13.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Defectively.Enumerations.Action">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Defectively.Enumerations.MessageType">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Defectively.Enumerations.ChannelJoinMode">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Defectively.Enumerations.PunishmentType">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Defectively.Enumerations.ClientState">
+        <TypeIdentifier>
+          <NewMemberFileName>Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.DiscardableConnection" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="18" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAgACIAAABAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiscardableConnection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Cryptography">
+    <Position X="0.5" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>wAAAgAAAAAAAAAACAEAQAAAAAACAAAABAAAACAAAAQA=</HashCode>
+      <FileName>Cryptography.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Connection" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgACQAAAAEAAgASMAIABAIAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Channel">
+    <Position X="6.25" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACACAIAEAAAAAAAAAAAQQCAAAAAABAAAACAAAEAiA=</HashCode>
+      <FileName>Channel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Account">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAAAAAAEAQAAAAAAAACAAAAIAAAAiI=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.UI.ConsoleStyle">
+    <Position X="0.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>UI\ConsoleStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.UI.Notification">
+    <Position X="13.75" Y="6.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Defectively.UI.Notification.VoidDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Notification.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAAAEAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Notification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.UI.ToolStripColorTable">
+    <Position X="13.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAwAAABAAAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>UI\ToolStripColorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Extension.ExtensionPool">
+    <Position X="10.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACgAAAAQ=</HashCode>
+      <FileName>Extension\ExtensionPool.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+      <Property Name="Server" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Defectively.Extension.JsonExtension">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extension\JsonExtension.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Commands" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Defectively.Extension.Listener">
+    <Position X="16" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Extension\Listener.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Event" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Defectively.Compatibility.LSClientVersionAttribute" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\LSClientVersionAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Compatibility.LSCoreVersionAttribute" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\LSCoreVersionAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Compatibility.LSServerVersionAttribute" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\LSServerVersionAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Compatibility.VersionAttribute">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\VersionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Compatibility.VersionHelper">
+    <Position X="3.75" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAAAAFAAAAAAAAAEAAAEAgQAACAAAIAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\VersionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Command.Command">
+    <Position X="8.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAChAAAEAAAAIAQSAAAAIAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>Command\Command.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Defectively.Command.CommandFactory">
+    <Position X="5.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\CommandFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Command.JsonCommand">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAAAAAAAAQAAAAAIAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>Command\JsonTypes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Defectively.Command.JsonParameter">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAEAAAAAEAA=</HashCode>
+      <FileName>Command\JsonTypes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ParameterType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Defectively.Command.Parameter&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAQEAAAAAAAA=</HashCode>
+      <FileName>Command\Parameter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Defectively.Authentication.SrvcsApi">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\SrvcsApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defectively.Authentication.SrvcsApiResult">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Authentication\SrvcsApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Defectively.AesData">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Cryptography.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Defectively.Extension.IClient">
+    <Position X="11.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAACBAAAAAQIAAAAAIAAA=</HashCode>
+      <FileName>Extension\IClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Defectively.Extension.IExtension">
+    <Position X="13.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAAAAAkAAIAhACAIAYAAAEAIAAYAAAAAAAACAA=</HashCode>
+      <FileName>Extension\IExtension.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ClientListeners" />
+      <Property Name="ServerListeners" />
+      <Property Name="Commands" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Interface Name="Defectively.Extension.IServer">
+    <Position X="8.25" Y="13.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgBKABJCAUAAhAgAgQAIAAQsICBQACAAQIAhAIOCABA=</HashCode>
+      <FileName>Extension\IServer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Defectively.Compatibility.ILSVersionAttribute">
+    <Position X="2.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Compatibility\ILSVersionAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Defectively.Command.IParameter">
+    <Position X="7" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAQEAAAAAAAA=</HashCode>
+      <FileName>Command\IParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Defectively.Authentication.IExternalProvider">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAYAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\IExternalProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Defectively.Event">
+    <Position X="19" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAABBAIAAAABAAAAAQBSAAAEgAAIBAAAJAAAAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Defectively.Compatibility.DevelopmentStage">
+    <Position X="0.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAQAABAAAAAAABAAAAA=</HashCode>
+      <FileName>Compatibility\DevelopmentStage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Defectively.Command.ParameterType">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\IParameter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

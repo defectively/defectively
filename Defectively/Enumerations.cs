@@ -58,8 +58,8 @@ namespace Defectively
         public enum PunishmentType
         {
             Mute,
-            Bann,
-            PermanentBann
+            Ban,
+            PermanentBan
         }
 
         public enum ClientState
@@ -68,7 +68,8 @@ namespace Defectively
             Muted,
             AwayFromKeyboard,
             Hidden,
-            Banned
+            Banned,
+            Duplicated
         }
     }
 }

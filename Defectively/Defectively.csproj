@@ -78,11 +78,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Punishment.cs" />
     <Compile Include="Rank.cs" />
-    <Compile Include="ConsoleStyle.cs" />
+    <Compile Include="UI\ConsoleStyle.cs" />
     <Compile Include="ServerMetaData.cs" />
     <Compile Include="Severity.cs" />
     <Compile Include="UI\Notification.cs" />
     <Compile Include="UI\ToolStripColorTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Defectively.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
